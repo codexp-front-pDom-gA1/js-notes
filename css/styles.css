@@ -69,7 +69,11 @@
     color: black;
     font-size: 15px;
     cursor: pointer;
-    margin: 3px;
+    margin: .5rem;
+}
+
+.cadastro-notas__title {
+    text-transform: uppercase;
 }
 
 #titulo {
@@ -80,7 +84,13 @@
     margin: 10px 2px;
 }
 
-fieldset{
+.cadastro-notas {
+    margin: 2rem 6rem;
+    border-radius: 5px;
+}
+
+.cadastro-notas__fieldset {
+    margin: 1rem;
     border-radius: 5px;
 }
 
