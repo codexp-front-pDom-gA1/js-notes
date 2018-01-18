@@ -30,7 +30,8 @@
     </header>
     <fieldset class="cadastro-notas">
         <legend class="cadastro-notas__title">cadastro de notas</legend>
-        <p>Título <br><input type="text" name="titulo" id="titulo"> </p>
+        <p>Título</p>
+        <input type="text" name="titulo" id="titulo">
         <fieldset class="cadastro-notas__fieldset">
             <legend class="itens">ÍTENS</legend>
             <i class="fa fa-plus-square-o" aria-hidden="true"></i>
@@ -38,8 +39,8 @@
             <br>
             <br>
             <div class="botao">
-                <button type="submit" value="" name="cadastrar_com" id="cadastrar_com" class="cadastrar_com">Cadastrar c/ DOM</button>
-                <button type="submit" value="" name="cadastrar_sem" id="cadastrar_sem" class="cadastrar_sem">Cadastrar s/ DOM</button>
+                <button type="submit" value="" name="cadastrar_com" id="cadastrar_com" class="cadastrar_com" onclick="comDom()">Cadastrar c/ DOM</button>
+                <button type="submit" value="" name="cadastrar_sem" id="cadastrar_sem" class="cadastrar_sem" onclick="semDom()">Cadastrar s/ DOM</button>
                 <button type="reset" value="" name="limpar" id="limpar" class="limpar">Limpar</button>
 
             </div>
@@ -67,6 +68,8 @@
         </div>
 
     </section>
+
+    <script src="js/scripts.js"></script>
 
 </body>
 </html>
