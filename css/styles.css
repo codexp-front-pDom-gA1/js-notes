@@ -4,3 +4,15 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.cadastrar_com, .cadastrar_sem, .limpar {
+    background-color: #FF9900;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px grey;
+    border-width: 0;
+    color: black;
+    font-size: 15px;
+}
