@@ -40,3 +40,72 @@ function onRemoveClick(section, index) {
     // atualizar a tela
     updateView(section);
 }
+
+
+
+/* blabla */
+
+
+
+var notes = [];
+
+//guardar uma variável
+
+//colocar na lista de notas 
+
+
+//atualizar a tela //atualizar tela (criar função pra atualizar tela)
+
+function atualizaTela(section){
+    var innerHTML = "";
+
+    for (var index=0, index < notes.length; index++){
+
+        innerHTML += <p> <input type="text" name="titulo" id="titulo"> </p>
+
+    }
+    código atualiza tela
+}
+
+
+//resetar o formulario
+
+titulo = input.titulo.value
+texto= input.texto.value
+this.form.titulo, this.from.texto
+funcao (input.titulo, input.texto)
+
+
+//limpar formulario
+form.reset
+
+
+//aplicar função de incluir os campos digitados + adicionar a lista vazia => notes
+
+function onInputDados() {
+
+    var dados = ""; // guardar html 
+    
+    for(var index=0; dados < index.lenght; index++) {
+        +=
+    }
+
+//chama aqui
+
+
+}
+
+funcao.push (notas)
+
+notes.dados 
+
+for 
+
+
+
+//aplicar evento de salvar pull.notes
+
+//aplicar função deletar
+
+
+

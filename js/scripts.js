@@ -17,17 +17,21 @@ function comDom()
 
 var notes = [];
 
-//atualizar a tela
+//atualizar a tela //atualizar tela (criar função pra atualizar tela)
+
+function atualizaTela(section){
+    var innerHTML = "";
+
+    for (var index=0, index < notes.length; index++){
+
+        innerHTML += <p> <input type="text" name="titulo" id="titulo"> </p>
+
+    }
+    código atualiza tela
+}
 
 //resetar o formulario
 
-
-
-//atualizar tela (criar função pra atualizar tela)
-
-function atualizaTela(secao){
-    código atualiza tela
-}
 
 //limpar formulario
 form.reset
